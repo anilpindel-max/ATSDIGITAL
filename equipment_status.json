@@ -1,0 +1,1 @@
+{"ILS": {"state": "ON", "on_val": "ON", "off_val": "OFF"}, "PAPI": {"state": "ON", "on_val": "ON", "off_val": "OFF"}, "AFLS": {"state": "ON", "on_val": "ON", "off_val": "OFF"}, "TACAN": {"state": "ON", "on_val": "ON", "off_val": "OFF"}, "NET": {"state": "DOWN", "on_val": "UP", "off_val": "DOWN"}}
