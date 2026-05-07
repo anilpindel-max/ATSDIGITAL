@@ -8,7 +8,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils import display_header_clocks, write_log
 
 # Page Configuration
-st.set_page_config(page_title="ATC CHANDIGARH", page_icon="🗼", layout="wide")
+st.set_page_config(page_title="ATC PASIGHAT", page_icon="🗼", layout="wide")
 
 # --- DATA FILES ---
 EQ_FILE = "equipment_status.json"
@@ -100,7 +100,7 @@ def main():
         </style>
     """, unsafe_allow_html=True)
         
-    st.title("🗼 ATC CHANDIGARH ")
+    st.title("🗼 ATC PASIGHAT ")
     
     # LOAD FRESH NETWORK DATA
     network_status = load_status()
